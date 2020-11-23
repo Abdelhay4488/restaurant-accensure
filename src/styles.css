@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.accenture-wrapper{
+  max-width: 1800px;
+  margin: 0 auto;
+}
+body{
+  padding-top: 0px;
+}
