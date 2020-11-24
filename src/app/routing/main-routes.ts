@@ -1,4 +1,4 @@
-import {HomeComponent} from "../core/components/home/home.component";
+import {HomeComponent} from "../dish/components/home/home.component";
 import {AboutComponent} from "../core/components/about/about.component";
 import {ContactUsComponent} from "../core/components/contact-us/contact-us.component";
 
