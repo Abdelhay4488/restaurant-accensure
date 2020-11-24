@@ -1,6 +1,6 @@
-import {HomeComponent} from "../core/home/home.component";
-import {AboutComponent} from "../core/about/about.component";
-import {ContactUsComponent} from "../core/contact-us/contact-us.component";
+import {HomeComponent} from "../core/components/home/home.component";
+import {AboutComponent} from "../core/components/about/about.component";
+import {ContactUsComponent} from "../core/components/contact-us/contact-us.component";
 
 export const App_Routes =[
   {path:'', component: HomeComponent},

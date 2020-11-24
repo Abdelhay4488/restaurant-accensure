@@ -1,12 +1,12 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HeaderComponent} from './header/header.component';
-import {FooterComponent} from './footer/footer.component';
-import {HomeComponent} from './home/home.component';
-import {AboutComponent} from './about/about.component';
-import {ContactUsComponent} from './contact-us/contact-us.component';
+import {HeaderComponent} from './components/header/header.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {HomeComponent} from './components/home/home.component';
+import {AboutComponent} from './components/about/about.component';
+import {ContactUsComponent} from './components/contact-us/contact-us.component';
 import {RouterModule} from "@angular/router";
-import {CarouselComponent} from './carousel/carousel.component';
+import {CarouselComponent} from './components/carousel/carousel.component';
 
 
 @NgModule({
