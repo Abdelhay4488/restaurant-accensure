@@ -1,6 +1,3 @@
-
-
-
 export class Dish {
 
   constructor(
@@ -9,6 +6,7 @@ export class Dish {
     public description ?: string,
     public price?: number,
     public url?: string,
+
   ) {
   }
 
@@ -26,3 +24,4 @@ export const dishListDemoData: Dish[] =[
   new Dish(19,"Tots els generad de Loremd","Tots els generadors de Lorem ipsum a Internet tendeixen a repetir un tros determinat tantes vegades com calgui, i això fa que aquest sigui el primcdfer generador real a Internet",15,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOpI7TBT0S6Y2n2QEYW2OTz28GeUMoGDW7cg&usqp=CAU"),
   new Dish(10,"Lorem Ipsum rà mlts llocsd","Lorem Ipsum descobrirà molts llocs web encara a les baceroles. Diverses versions han anat evolucionant al llarg dels anys  considera fer una petita donació per  considera fer un",13,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nGn6MBstkbs5yvvEsAsDoK6XNpmlbionwg&usqp=CAU"),
 ]
+

@@ -4,6 +4,11 @@ import {DishComponent} from './components/dish/dish.component';
 import {DishListComponent} from './components/dish-list/dish-list.component';
 import {HomeComponent} from "./components/home/home.component";
 import {CarouselComponent} from "./components/carousel/carousel.component";
+import {DishUpdateComponent} from './components/dish-update/dish-update.component';
+import {RouterModule} from "@angular/router";
+import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
+import {DishCreateComponent} from "./components/dish-create/dish-create.component";
 
 
 @NgModule({
@@ -11,10 +16,15 @@ import {CarouselComponent} from "./components/carousel/carousel.component";
     DishComponent,
     DishListComponent,
     HomeComponent,
-    CarouselComponent
+    CarouselComponent,
+    DishUpdateComponent,
+    DishCreateComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class DishModule { }

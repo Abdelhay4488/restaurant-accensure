@@ -5,6 +5,8 @@ import {AppComponent} from './app.component';
 import {CoreModule} from "./core/core.module";
 import {DishModule} from "./dish/dish.module";
 import {RoutingModule} from "./routing/routing.module";
+import {HttpClientModule} from "@angular/common/http";
+import {HttpServiceService} from "./dish/services/http-service.service";
 
 @NgModule({
   declarations: [
@@ -14,9 +16,10 @@ import {RoutingModule} from "./routing/routing.module";
     BrowserModule,
     CoreModule,
     DishModule,
-    RoutingModule
+    RoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HttpServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
