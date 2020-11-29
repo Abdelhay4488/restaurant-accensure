@@ -48,7 +48,7 @@ export class DishCreateComponent implements OnInit {
 
   onTriggerCreateReqToBackEnd(){
     console.log(this.newDish);
-    this.httpclient.post("http://localhost:9191/addProduct", this.newDish).subscribe(
+    this.httpservice.createDish(this.newDish).subscribe(
       (response)=>{
         console.log(response);
         this.router.navigate(['']);
